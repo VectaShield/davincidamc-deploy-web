@@ -1,0 +1,78 @@
+{
+  "_howto": [
+    "HOW TO ADD A VIDEO BY HAND: add an object to 'videos': {\"url\": \"<TikTok video URL>\",",
+    "\"date\": \"YYYY-MM-DD\", \"views\": 88800, \"note\": \"one line about it\"}.",
+    "'views' is a plain number. The site formats it (88800 -> 88.8K) and pins the three",
+    "highest-viewed videos to the top of the feed itself. There is no 'pinned' flag.",
+    "The upload date is encoded in the video id: new Date(Number(BigInt(id) >> 32n) * 1000).",
+    "THUMBNAIL: save a ~360px wide webp at thumbs/<video-id>.webp (TikTok CDN URLs expire,",
+    "so a local copy is mandatory). A missing thumb degrades to a styled dark card.",
+    "Normally none of this is needed: scripts/refresh-videos.mjs does it hourly."
+  ],
+  "_auto": "Auto-refreshed hourly by scripts/refresh-videos.mjs. Hand-edited \"note\" text is preserved by video id; \"views\" is re-pulled from TikTok (monotonic: never decreases). New/removed videos ship immediately; view-count-only changes are written at most every 6 hours to limit deploy churn. _lastRefresh records the last successful write.",
+  "_lastRefresh": {
+    "at": "2026-09-21T00:36:54.328Z"
+  },
+  "videos": [
+    {
+      "url": "https://www.tiktok.com/@davinci_damc/video/7687613147095518494",
+      "date": "2026-09-20",
+      "views": 541,
+      "note": "The Super Moto Show - Import Expo. The Moto Legion. H2 🌸 @𝓜…"
+    },
+    {
+      "url": "https://www.tiktok.com/@davinci_damc/video/7684461566074375454",
+      "date": "2026-09-12",
+      "views": 2745,
+      "note": "Hostile - showing open opposition, unfriendliness, or aggress…"
+    },
+    {
+      "url": "https://www.tiktok.com/@davinci_damc/video/7677237388875205918",
+      "date": "2026-08-23",
+      "views": 1870,
+      "note": "Ninja plzzzz group ride 8-22-26 @🩷🏍️ Ninja Jen 🏍️🩷 🇮🇹 @…"
+    },
+    {
+      "url": "https://www.tiktok.com/@davinci_damc/video/7676950184944766238",
+      "date": "2026-08-22",
+      "views": 831,
+      "note": "🇮🇹 A tavola non si invecchia🤌"
+    },
+    {
+      "url": "https://www.tiktok.com/@davinci_damc/video/7669475616927796510",
+      "date": "2026-08-02",
+      "views": 1118,
+      "note": "The Babadook"
+    },
+    {
+      "url": "https://www.tiktok.com/@davinci_damc/video/7656250822031920415",
+      "date": "2026-06-28",
+      "views": 1113,
+      "note": "Michigan SuperBike Meet 2026"
+    },
+    {
+      "url": "https://www.tiktok.com/@davinci_damc/video/7652398839013444894",
+      "date": "2026-06-17",
+      "views": 1775,
+      "note": "RED - The color of fresh blood and fire, located at the extre…"
+    },
+    {
+      "url": "https://www.tiktok.com/@davinci_damc/video/7650658095596604703",
+      "date": "2026-06-12",
+      "views": 1643,
+      "note": "Compliments to the photographer 💋 📸"
+    },
+    {
+      "url": "https://www.tiktok.com/@davinci_damc/video/7632867035260751134",
+      "date": "2026-04-26",
+      "views": 413000,
+      "note": "Damn I really thought I was special 😔"
+    },
+    {
+      "url": "https://www.tiktok.com/@davinci_damc/video/7628276644817489182",
+      "date": "2026-04-13",
+      "views": 1709,
+      "note": "New episodes all summer long"
+    }
+  ]
+}
