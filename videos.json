@@ -11,55 +11,55 @@
   ],
   "_auto": "Auto-refreshed hourly by scripts/refresh-videos.mjs. Hand-edited \"note\" text is preserved by video id; \"views\" is re-pulled from TikTok (monotonic: never decreases). New/removed videos ship immediately; view-count-only changes are written at most every 6 hours to limit deploy churn. _lastRefresh records the last successful write.",
   "_lastRefresh": {
-    "at": "2026-09-23T00:54:29.697Z"
+    "at": "2026-09-23T12:59:47.030Z"
   },
   "videos": [
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7687613147095518494",
       "date": "2026-09-20",
-      "views": 747,
+      "views": 759,
       "note": "The Super Moto Show - Import Expo. The Moto Legion. H2 🌸 @𝓜…"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7684461566074375454",
       "date": "2026-09-12",
-      "views": 2769,
+      "views": 2770,
       "note": "Hostile - showing open opposition, unfriendliness, or aggress…"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7677237388875205918",
       "date": "2026-08-23",
-      "views": 1894,
+      "views": 1897,
       "note": "Ninja plzzzz group ride 8-22-26 @🩷🏍️ Ninja Jen 🏍️🩷 🇮🇹 @…"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7676950184944766238",
       "date": "2026-08-22",
-      "views": 840,
+      "views": 843,
       "note": "🇮🇹 A tavola non si invecchia🤌"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7669475616927796510",
       "date": "2026-08-02",
-      "views": 1125,
+      "views": 1128,
       "note": "The Babadook"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7656250822031920415",
       "date": "2026-06-28",
-      "views": 1116,
+      "views": 1117,
       "note": "Michigan SuperBike Meet 2026"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7652398839013444894",
       "date": "2026-06-17",
-      "views": 1778,
+      "views": 1780,
       "note": "RED - The color of fresh blood and fire, located at the extre…"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7650658095596604703",
       "date": "2026-06-12",
-      "views": 1648,
+      "views": 1650,
       "note": "Compliments to the photographer 💋 📸"
     },
     {
@@ -71,7 +71,7 @@
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7628276644817489182",
       "date": "2026-04-13",
-      "views": 1715,
+      "views": 1716,
       "note": "New episodes all summer long"
     }
   ]
