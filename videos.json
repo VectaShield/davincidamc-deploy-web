@@ -11,67 +11,67 @@
   ],
   "_auto": "Auto-refreshed hourly by scripts/refresh-videos.mjs. Hand-edited \"note\" text is preserved by video id; \"views\" is re-pulled from TikTok (monotonic: never decreases). New/removed videos ship immediately; view-count-only changes are written at most every 6 hours to limit deploy churn. _lastRefresh records the last successful write.",
   "_lastRefresh": {
-    "at": "2026-09-27T17:56:06.915Z"
+    "at": "2026-09-27T23:57:42.525Z"
   },
   "videos": [
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7690236121569119519",
       "date": "2026-09-27",
-      "views": 0,
+      "views": 303,
       "note": "Free will ridez x DTB"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7690235812377660703",
       "date": "2026-09-27",
-      "views": 0,
+      "views": 301,
       "note": "Free will ridez x DTB"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7687613147095518494",
       "date": "2026-09-20",
-      "views": 863,
+      "views": 873,
       "note": "The Super Moto Show - Import Expo. The Moto Legion. H2 🌸 @𝓜…"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7684461566074375454",
       "date": "2026-09-12",
-      "views": 2822,
+      "views": 2824,
       "note": "Hostile - showing open opposition, unfriendliness, or aggress…"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7677237388875205918",
       "date": "2026-08-23",
-      "views": 1919,
+      "views": 1923,
       "note": "Ninja plzzzz group ride 8-22-26 @🩷🏍️ Ninja Jen 🏍️🩷 🇮🇹 @…"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7676950184944766238",
       "date": "2026-08-22",
-      "views": 864,
+      "views": 867,
       "note": "🇮🇹 A tavola non si invecchia🤌"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7669475616927796510",
       "date": "2026-08-02",
-      "views": 1141,
+      "views": 1147,
       "note": "The Babadook"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7656250822031920415",
       "date": "2026-06-28",
-      "views": 1121,
+      "views": 1123,
       "note": "Michigan SuperBike Meet 2026"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7652398839013444894",
       "date": "2026-06-17",
-      "views": 1786,
+      "views": 1787,
       "note": "RED - The color of fresh blood and fire, located at the extre…"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7650658095596604703",
       "date": "2026-06-12",
-      "views": 1655,
+      "views": 1657,
       "note": "Compliments to the photographer 💋 📸"
     },
     {
