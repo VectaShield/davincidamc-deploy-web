@@ -11,37 +11,37 @@
   ],
   "_auto": "Auto-refreshed hourly by scripts/refresh-videos.mjs. Hand-edited \"note\" text is preserved by video id; \"views\" is re-pulled from TikTok (monotonic: never decreases). New/removed videos ship immediately; view-count-only changes are written at most every 6 hours to limit deploy churn. _lastRefresh records the last successful write.",
   "_lastRefresh": {
-    "at": "2026-10-02T07:29:31.325Z"
+    "at": "2026-10-02T14:06:52.362Z"
   },
   "videos": [
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7690236121569119519",
       "date": "2026-09-27",
-      "views": 541,
+      "views": 547,
       "note": "Free will ridez x DTB"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7690235812377660703",
       "date": "2026-09-27",
-      "views": 644,
+      "views": 646,
       "note": "Free will ridez x DTB"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7687613147095518494",
       "date": "2026-09-20",
-      "views": 924,
+      "views": 925,
       "note": "The Super Moto Show - Import Expo. The Moto Legion. H2 🌸 @𝓜…"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7684461566074375454",
       "date": "2026-09-12",
-      "views": 2871,
+      "views": 2874,
       "note": "Hostile - showing open opposition, unfriendliness, or aggress…"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7677237388875205918",
       "date": "2026-08-23",
-      "views": 1936,
+      "views": 1938,
       "note": "Ninja plzzzz group ride 8-22-26 @🩷🏍️ Ninja Jen 🏍️🩷 🇮🇹 @…"
     },
     {
