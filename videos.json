@@ -11,31 +11,31 @@
   ],
   "_auto": "Auto-refreshed hourly by scripts/refresh-videos.mjs. Hand-edited \"note\" text is preserved by video id; \"views\" is re-pulled from TikTok (monotonic: never decreases). New/removed videos ship immediately; view-count-only changes are written at most every 6 hours to limit deploy churn. _lastRefresh records the last successful write.",
   "_lastRefresh": {
-    "at": "2026-10-04T08:44:35.830Z"
+    "at": "2026-10-04T14:58:04.092Z"
   },
   "videos": [
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7690236121569119519",
       "date": "2026-09-27",
-      "views": 568,
+      "views": 574,
       "note": "Free will ridez x DTB"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7690235812377660703",
       "date": "2026-09-27",
-      "views": 668,
+      "views": 673,
       "note": "Free will ridez x DTB"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7687613147095518494",
       "date": "2026-09-20",
-      "views": 937,
+      "views": 939,
       "note": "The Super Moto Show - Import Expo. The Moto Legion. H2 🌸 @𝓜…"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7684461566074375454",
       "date": "2026-09-12",
-      "views": 2877,
+      "views": 2881,
       "note": "Hostile - showing open opposition, unfriendliness, or aggress…"
     },
     {
@@ -65,7 +65,7 @@
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7652398839013444894",
       "date": "2026-06-17",
-      "views": 1799,
+      "views": 1800,
       "note": "RED - The color of fresh blood and fire, located at the extre…"
     },
     {
