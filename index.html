@@ -18,8 +18,8 @@
     <meta property="og:url" content="https://davincidamc.com/">
     <meta property="og:site_name" content="DaVinci">
     <meta property="og:locale" content="en_US">
-    <meta property="og:image" content="https://davincidamc.com/og-image.png?v=20261014140030">
-    <meta property="og:image:secure_url" content="https://davincidamc.com/og-image.png?v=20261014140030">
+    <meta property="og:image" content="https://davincidamc.com/og-image.png?v=20261014165305">
+    <meta property="og:image:secure_url" content="https://davincidamc.com/og-image.png?v=20261014165305">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -31,11 +31,11 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="DaVinci | Motorcycle Content Creator | Detroit">
     <meta name="twitter:description" content="Detroit motorcycle content on a Kawasaki ZX-14R. President of Deadly Assassins, member of The Moto Legion.">
-    <meta name="twitter:image" content="https://davincidamc.com/og-image.png?v=20261014140030">
+    <meta name="twitter:image" content="https://davincidamc.com/og-image.png?v=20261014165305">
     <meta name="twitter:image:alt" content="DaVinci, Detroit motorcycle content creator">
 
-    <link rel="stylesheet" href="styles.css?v=20261014140030">
-    <link rel="icon" type="image/png" href="favicon-64.png?v=20261014140030">
+    <link rel="stylesheet" href="styles.css?v=20261014165305">
+    <link rel="icon" type="image/png" href="favicon-64.png?v=20261014165305">
     <link rel="icon" href="/favicon.ico" sizes="48x48 32x32 16x16">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="preload" href="/fonts/bodoni-moda-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -127,10 +127,10 @@
 <body>
     <main class="card">
         <div class="avatar-wrap">
-            <img src="davinci-avatar.webp?v=20261014140030" alt="DaVinci on his Kawasaki ZX-14R" class="avatar" width="220" height="220" fetchpriority="high">
+            <img src="davinci-avatar.webp?v=20261014165305" alt="DaVinci on his Kawasaki ZX-14R" class="avatar" width="220" height="220" fetchpriority="high">
         </div>
 
-        <h1 class="name wordmark-heading"><img src="davinci-damc-wordmark.svg?v=20261014140030" alt="DaVinci_DAMC" class="wordmark" width="2806" height="300"></h1>
+        <h1 class="name wordmark-heading"><img src="davinci-damc-wordmark.svg?v=20261014165305" alt="DaVinci_DAMC" class="wordmark" width="2806" height="300"></h1>
         <p class="tagline">Italian blood. Detroit streets. ZX-14R.</p>
 
         <!-- Membership credit. Deliberately understated visually, but fully
@@ -187,6 +187,14 @@
             </div>
         </section>
 
+        <!-- Moto Legion shared events calendar. The inline script at the
+             bottom of the page fetches themotolegion.com/events.json
+             cross-origin (CORS is open, buster rolls hourly), filters to
+             events naming davinci or the whole Moto Legion, and renders
+             .event-tile anchors here. Empty, and costing nothing visually,
+             when no upcoming event names this site or the fetch fails. -->
+        <div id="event-strip"></div>
+
         <!-- Latest TikTok uploads. Hidden until feed.js has data so the
              section never flashes an empty heading; feed.js only fetches
              once the page is idle and the section nears the viewport. -->
@@ -225,8 +233,63 @@
     </main>
 
     <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+    <!-- Moto Legion shared events calendar. One fetch of the hub's
+         events.json; the ?v= buster rolls hourly so LiteSpeed's day-long
+         JSON cache never serves a stale calendar, and no deploy is needed
+         here when an event is added. Any failure leaves the strip empty,
+         identical to having no upcoming events. -->
+    <script>
+    (function () {
+        var strip = document.getElementById('event-strip');
+        if (!strip || !window.fetch) { return; }
+        var EVENTS_URL = 'https://themotolegion.com/events.json?v=' +
+            Math.floor(Date.now() / 3600000);
+        var MY_KEY = 'davinci';
+        var MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+                      'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+        function span(cls, text) {
+            var s = document.createElement('span');
+            s.className = cls;
+            s.textContent = text;
+            return s;
+        }
+        fetch(EVENTS_URL).then(function (r) { return r.json(); }).then(function (d) {
+            var now = new Date();
+            var today = now.getFullYear() + '-' +
+                String(now.getMonth() + 1).padStart(2, '0') + '-' +
+                String(now.getDate()).padStart(2, '0');
+            (d.events || []).filter(function (e) {
+                return e.date >= today && (e.who || []).some(function (w) {
+                    return w === MY_KEY || w === 'themotolegion';
+                });
+            }).sort(function (a, b) {
+                return a.date < b.date ? -1 : a.date > b.date ? 1 : 0;
+            }).forEach(function (e) {
+                var tile = document.createElement('a');
+                tile.className = 'event-tile';
+                tile.href = e.url;
+                tile.target = '_blank';
+                tile.rel = 'noopener';
+                tile.setAttribute('aria-label', e.aria ||
+                    (e.name + ', ' + e.date + ', ' + e.where));
+                var date = span('event-date', '');
+                date.appendChild(span('event-mon', MONTHS[parseInt(e.date.slice(5, 7), 10) - 1]));
+                date.appendChild(span('event-day', String(parseInt(e.date.slice(8, 10), 10))));
+                var info = span('event-info', '');
+                info.appendChild(span('event-name', e.name));
+                info.appendChild(span('event-times', e.times));
+                var where = span('event-where', e.where + ' ');
+                where.appendChild(span('event-arrow', '→'));
+                tile.appendChild(date);
+                tile.appendChild(info);
+                tile.appendChild(where);
+                strip.appendChild(tile);
+            });
+        }).catch(function () { /* unreachable hub reads as no events */ });
+    })();
+    </script>
     <!-- Last script on the page: the feed is the lowest-priority thing here
          and defers its own network work until after load. -->
-    <script src="feed.js?v=20261014140030" defer></script>
+    <script src="feed.js?v=20261014165305" defer></script>
 </body>
 </html>
