@@ -11,49 +11,55 @@
   ],
   "_auto": "Auto-refreshed hourly by scripts/refresh-videos.mjs. Hand-edited \"note\" text is preserved by video id; \"views\" is re-pulled from TikTok (monotonic: never decreases). New/removed videos ship immediately; view-count-only changes are written at most every 6 hours to limit deploy churn. _lastRefresh records the last successful write.",
   "_lastRefresh": {
-    "at": "2026-10-20T12:06:34.683Z"
+    "at": "2026-10-21T00:06:51.524Z"
   },
   "videos": [
     {
+      "url": "https://www.tiktok.com/@davinci_damc/video/7698841140971228446",
+      "date": "2026-10-20",
+      "views": 237,
+      "note": "New lid who did"
+    },
+    {
       "url": "https://www.tiktok.com/@davinci_damc/video/7693221433459117343",
       "date": "2026-10-05",
-      "views": 3821,
+      "views": 3830,
       "note": "October 11th The Moto Legion presents… H2"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7690236121569119519",
       "date": "2026-09-27",
-      "views": 720,
+      "views": 721,
       "note": "Free will ridez x DTB"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7690235812377660703",
       "date": "2026-09-27",
-      "views": 811,
+      "views": 815,
       "note": "Free will ridez x DTB"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7687613147095518494",
       "date": "2026-09-20",
-      "views": 1027,
+      "views": 1028,
       "note": "The Super Moto Show - Import Expo. The Moto Legion. H2 🌸 @𝓜…"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7684461566074375454",
       "date": "2026-09-12",
-      "views": 2979,
+      "views": 2981,
       "note": "Hostile - showing open opposition, unfriendliness, or aggress…"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7677237388875205918",
       "date": "2026-08-23",
-      "views": 1999,
+      "views": 2000,
       "note": "Ninja plzzzz group ride 8-22-26 @🩷🏍️ Ninja Jen 🏍️🩷 🇮🇹 @…"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7676950184944766238",
       "date": "2026-08-22",
-      "views": 939,
+      "views": 940,
       "note": "🇮🇹 A tavola non si invecchia🤌"
     },
     {
@@ -83,7 +89,7 @@
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7632867035260751134",
       "date": "2026-04-26",
-      "views": 413200,
+      "views": 413300,
       "note": "Damn I really thought I was special 😔"
     },
     {
