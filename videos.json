@@ -11,37 +11,37 @@
   ],
   "_auto": "Auto-refreshed hourly by scripts/refresh-videos.mjs. Hand-edited \"note\" text is preserved by video id; \"views\" is re-pulled from TikTok (monotonic: never decreases). New/removed videos ship immediately; view-count-only changes are written at most every 6 hours to limit deploy churn. _lastRefresh records the last successful write.",
   "_lastRefresh": {
-    "at": "2026-10-30T23:11:25.194Z"
+    "at": "2026-10-31T09:56:08.080Z"
   },
   "videos": [
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7698841140971228446",
       "date": "2026-10-20",
-      "views": 587,
+      "views": 588,
       "note": "New lid who did"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7693221433459117343",
       "date": "2026-10-05",
-      "views": 4156,
+      "views": 4182,
       "note": "October 11th The Moto Legion presents… H2"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7690236121569119519",
       "date": "2026-09-27",
-      "views": 773,
+      "views": 774,
       "note": "Free will ridez x DTB"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7690235812377660703",
       "date": "2026-09-27",
-      "views": 857,
+      "views": 859,
       "note": "Free will ridez x DTB"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7687613147095518494",
       "date": "2026-09-20",
-      "views": 1066,
+      "views": 1068,
       "note": "The Super Moto Show - Import Expo. The Moto Legion. H2 🌸 @𝓜…"
     },
     {
@@ -53,19 +53,19 @@
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7677237388875205918",
       "date": "2026-08-23",
-      "views": 2029,
+      "views": 2030,
       "note": "Ninja plzzzz group ride 8-22-26 @🩷🏍️ Ninja Jen 🏍️🩷 🇮🇹 @…"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7676950184944766238",
       "date": "2026-08-22",
-      "views": 976,
+      "views": 977,
       "note": "🇮🇹 A tavola non si invecchia🤌"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7669475616927796510",
       "date": "2026-08-02",
-      "views": 1231,
+      "views": 1233,
       "note": "The Babadook"
     },
     {
