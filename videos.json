@@ -11,67 +11,67 @@
   ],
   "_auto": "Auto-refreshed hourly by scripts/refresh-videos.mjs. Hand-edited \"note\" text is preserved by video id; \"views\" is re-pulled from TikTok (monotonic: never decreases). New/removed videos ship immediately; view-count-only changes are written at most every 6 hours to limit deploy churn. _lastRefresh records the last successful write.",
   "_lastRefresh": {
-    "at": "2026-11-04T22:10:25.168Z"
+    "at": "2026-11-05T11:28:01.314Z"
   },
   "videos": [
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7704029423460273439",
       "date": "2026-11-03",
-      "views": 2592,
+      "views": 2699,
       "note": "70 degrees in Michigan"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7698841140971228446",
       "date": "2026-10-20",
-      "views": 687,
+      "views": 701,
       "note": "New lid who did"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7693221433459117343",
       "date": "2026-10-05",
-      "views": 4390,
+      "views": 4428,
       "note": "October 11th The Moto Legion presents… H2"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7690236121569119519",
       "date": "2026-09-27",
-      "views": 816,
+      "views": 828,
       "note": "Free will ridez x DTB"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7690235812377660703",
       "date": "2026-09-27",
-      "views": 896,
+      "views": 906,
       "note": "Free will ridez x DTB"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7687613147095518494",
       "date": "2026-09-20",
-      "views": 1109,
+      "views": 1116,
       "note": "The Super Moto Show - Import Expo. The Moto Legion. H2 🌸 @𝓜…"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7684461566074375454",
       "date": "2026-09-12",
-      "views": 3158,
+      "views": 3174,
       "note": "Hostile - showing open opposition, unfriendliness, or aggress…"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7677237388875205918",
       "date": "2026-08-23",
-      "views": 2066,
+      "views": 2074,
       "note": "Ninja plzzzz group ride 8-22-26 @🩷🏍️ Ninja Jen 🏍️🩷 🇮🇹 @…"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7676950184944766238",
       "date": "2026-08-22",
-      "views": 1007,
+      "views": 1011,
       "note": "🇮🇹 A tavola non si invecchia🤌"
     },
     {
       "url": "https://www.tiktok.com/@davinci_damc/video/7669475616927796510",
       "date": "2026-08-02",
-      "views": 1259,
+      "views": 1262,
       "note": "The Babadook"
     },
     {
